@@ -1,0 +1,30 @@
+<table class="board_view">
+    <colgroup>
+        <col width="15%" />
+        <col width="35%" />
+        <col width="15%" />
+        <col width="35%" />
+    </colgroup>
+    <caption style="background-color: #ccc">게시글 상세보기</caption>
+    <tbody>
+        <tr>
+            <th scope="row">글 번호</th>
+            <td></td> <!-- ${list[0].DOCNUM } -->
+            <th scope="row">조회수</th>
+            <td></td> <!-- ${list[0].VIEWCOUNT } -->
+        </tr>
+        <tr>
+            <th scope="row">작성자</th>
+            <td></td> <!-- ${list[0].ADD_USR_NM } -->
+            <th scope="row">작성시간</th>
+            <td></td> <!-- 2016-10-21 -->
+        </tr>
+        <tr>
+            <th scope="row">제목</th>
+            <td colspan="3"></td> <!-- ${list[0].TITLE } -->
+        </tr>
+        <tr>
+            <td colspan="4" style="border: 1px solid #ccc; height : 100px;"></td> <!-- ${listp[0].CONTENTS } -->
+        </tr>
+    </tbody>
+</table> <a href="#this" class="btn" id="update">수정하기</a> <a href="#this" class="btn" id="delete">삭제하기</a>
